@@ -1,0 +1,151 @@
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    background-color: #f8f9fa;
+}
+
+.logo {
+    margin-top: 4vw;
+    margin-bottom: 1vw;
+}
+
+.logo h3 {
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+    color:#da3a67;
+}
+
+h3 {
+    font-size: 1.9rem;
+    color:#da3a67;
+}
+
+p {
+    font-size: 0.95rem;
+    color: #6c757d;
+}
+
+.form-label {
+    font-weight: 500;
+}
+
+.form-control {
+    border-radius: 5px;
+    padding: 10px 12px;
+    border: 1px solid #ced4da;
+    font-size: 0.95rem;
+}
+
+.form-control:focus {
+    border-color: linear-gradient(90deg, rgba(235, 91, 132, 1) 0%, rgba(201, 24, 74, 1) 100%);
+    ;
+    box-shadow: 0 0 0 0.2rem rgba(255, 90, 95, 0.25);
+}
+
+.btn-primary {
+    background: linear-gradient(90deg, rgba(235, 91, 132, 1) 0%, rgba(201, 24, 74, 1) 100%);
+    border-color: #dc5a76df;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(90deg, rgba(235, 91, 132, 1) 0%, rgba(201, 24, 74, 1) 100%);
+    border-color: #c65b73df;
+}
+
+.btn-outline-primary {
+    border-color: #3b5998;
+    color: #3b5998;
+}
+
+.btn-outline-primary:hover {
+    background-color: #3b5998;
+    color: #fff;
+}
+
+.btn-outline-danger {
+    border-color: #c65b73df;
+    color: #c65b73df;
+}
+
+.btn-outline-danger:hover {
+    background-color: #c65b73df;
+    color: #fff;
+}
+
+.btn-danger {
+    background-color: #dc5a76df;
+    border-color: #dc5a76df;
+}
+
+.btn-danger:hover {
+    background-color: #c65b73df;
+    border-color: #c65b73df;
+}
+
+.text-danger {
+    color: #dc5a76df !important;
+}
+
+.text-danger:hover {
+    text-decoration: underline;
+}
+
+.text-center {
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}
+
+/* Right Section Styling */
+.bg-gradient {
+    background-color: #da3a67;
+    color: white !important; 
+}
+
+.text-white h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.text-white p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    color: #fff;
+}
+
+.dots {
+    margin-top: 1.5rem;
+}
+
+.dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    background-color: #fff;
+    border-radius: 50%;
+    opacity: 0.5;
+    transition: opacity 0.3s;
+}
+
+.dot.active {
+    opacity: 1;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .col-md-6 {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .bg-gradient {
+        display: none;
+    }
+}
